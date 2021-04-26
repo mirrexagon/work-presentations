@@ -51,6 +51,10 @@ let
     };
   };
 
+  # mkNewLibxslt = pkgs: pkgs.libxslt.override {
+  #   cryptoSupport = true;
+  # };
+
   pkgs = import <nixpkgs> {};
 
   kakoune = pkgs.callPackage kakouneFunc {};

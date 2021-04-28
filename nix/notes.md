@@ -6,7 +6,7 @@ Its deal is reproducible and declarative system management.
 
 Nix is quite different from conventional package managers, and is somewhat complex. As I started planning this presentation I realised that there's way too much to cover in 15 minutes. So this will be a very high-level overview that I threw together, and hopefully it makes sense and maybe gets you interested to know more.
 
-So why am I talking about a Linux package manager anyway? I think it has cool ideas about reproducibility and configuration management, that I think we need more of here.
+So why am I talking about a Linux package manager anyway? I think it has cool ideas about reproducibility and configuration management, that might be some good food for thought for ways to improve.
 
 ## Conventional package managers
 Conventional package managers just put files directly on your root filesystem, and have some metadata (notably dependencies, which other packages should be installed alongside this one).
